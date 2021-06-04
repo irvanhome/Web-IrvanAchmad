@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* img {
+    width: 100%; */
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+div {
+    display: block;
+}
+
+
+/* Header */
+
+.home {
+    padding-bottom: 100px;
+}
+
+.btn-box {
+    margin-left: -2;
+}
+
+.model {
+    margin-top: 20%;
+}
+
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+.fotomdl {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.rounded-circle {
+    width: 1000;
+}
+
+.text-container {
+    margin-top: 40%;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.ml-auto,
+.mx-auto {
+    margin-left: auto!important;
+}
+
+
+/**/
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 2px; */
+}
+
+.stroke {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Tentang */
+
+.camerakong {
+    width: 300px;
+}
+
+.tentang {
+    padding-bottom: 100px;
+    background-color: rgb(204, 204, 204);
+}
+
+.aligntb {
+    padding-top: 100px;
+}
+
+
+/* NAVBAR */
+
+.collapse .navbar-nav .nav-link {}
+
+.navbar-expand-lg>.container,
+.navbar-expand-lg>.container-fluid,
+.navbar-expand-lg>.container-lg,
+.navbar-expand-lg>.container-md,
+.navbar-expand-lg>.container-sm,
+.navbar-expand-lg>.container-xl {
+    flex-wrap: nowrap;
+}
+
+.font-size {
+    font-size: 20px;
+}
+
+.navbar .container,
+.navbar .container-fluid,
+.navbar .container-lg,
+.navbar .container-md,
+.navbar .container-sm,
+.navbar .container-xl {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+}
+
+@media screen and (min-width: 601px) {
+    div.example {
+        font-size: 25px;
+    }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
+@media screen and (max-width: 600px) {
+    div.example {
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+
+/**/
+
+
+/* portofolio */
+
+.text-portopolio {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+    border-radius: calc(.25rem - 1px);
+}
+
+.portofolio {
+    padding-bottom: 500px;
+    padding-top: 100px;
+}
+
+
+/* Percobaan portopolio */
+
+@media only screen and (min-width: 768px) {
+    .lab-grid {
+        margin-left: -1.5em;
+        width: calc( 100% + 1.5em);
+    }
+}
+
+
+/* .padpading {
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+.piktur .imeg {
+    width: 200;
+}
+
+.lab-grid .lab-grid-cell {
+    margin-bottom: 1.5em;
+}
+
+.lab-grid-cell {
+    float: left;
+    padding-left: 1.5em;
+}
+
+.w-third--d {
+    width: 33.33333%;
+}
+
+.lab-grid-cell {
+    padding-left: 0;
+}
+
+.img-hover-zoom {
+    background: #222f3e;
+    height: 300px;
+    overflow: hidden;
+    border-radius: .5em;
+    border: 5px solid rgba(255, 255, 255, .05);
+}
+
+.img-hover-zoom img {
+    transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(1.5);
+}
+
+
+/* ---- */
+
+
+/* .zoom {
+        transition: transform .2s;
+        margin: 0 auto;
+    }
+    
+    .zoom:hover {
+        -ms-transform: scale(1.2);
+        /* IE 9 * /
+    
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 * /
+    
+    transform: scale(1.2);
+} */
+
+
+/* FOOTER */
+
+.footer {
+    background-color: rgb(204, 204, 204);
+}
+
+.contact {
+    padding-top: 80px;
+}
+
+.iconfooter {
+    width: 20px;
+}
+
+.iconfooterr {
+    width: 30px;
+}
+
+.paddingmin {}
+
+.paddingplus {
+    padding-bottom: 50px;
+}
+
+
+/* .bi-envelope::before {
+    content: "\f32f";
+}
+
+.bi-whatsapp::before {
+    content: "\f618";
+}
+
+.bi-instagram::before {
+    content: "\f618";
+}
+
+ ::after,
+ ::before {
+    box-sizing: border-box;
+} */
+
+
+/* FOOTER2 */
+
+.footer-akhir {
+    background-color: #fbfbfb;
+    color: #292929;
+    padding: 20px 0px;
+}
+
+.footer-akhir .col-md-12 {
+    display: flex;
+    justify-content: space-between;
+    /* other */
+}
+
+element.style {}
+
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+[data-aos][data-aos][data-aos-duration="1000"],
+body[data-aos-duration="1000"] [data-aos] {
+    transition-duration: 1s;
+}
+
+[data-aos][data-aos][data-aos-easing=ease],
+body[data-aos-easing=ease] [data-aos] {
+    transition-timing-function: ease;
+}
+
+[data-aos][data-aos][data-aos-duration="400"],
+body[data-aos-duration="400"] [data-aos] {
+    transition-duration: .4s;
+}
+
+[data-aos^=fade][data-aos^=fade] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+
+[data-aos=fade-down] {
+    transform: translate3d(0, -100px, 0);
+}
+
+
+/* Scrolll */
